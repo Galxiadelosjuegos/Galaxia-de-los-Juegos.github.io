@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+a { 
+    text-decoration: none;
+    color: black;
+} 
+
+img{
+    width: 60%;
+    height: 40%;
+}
+.n1{
+display: flex;
+justify-content:space-between;
+min-height: 40px;
+background-color: rgb(45, 42, 42);
+align-items:center;
+padding: 20px;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+
+}
+.logo{
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    line-height: 20px;
+   
+
+}
+.logo img{
+    height: 60px;
+    width:60px ;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 50px;
+    padding-right: 10px;
+
+}
+nav a :hover{
+    color:rgb(250, 0, 0); 
+}
+@media (max-width :600px){
+  .n1{flex-direction: column;
+    text-align: center;
+}
+  .hola{
+    text-align: center;
+    justify-content: center;
+}
+
+  nav{
+     padding: 10px 0px;
+}
+}
+.hola{
+   padding: 7rem ;;
+   height: 70vh;
+      display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+  color: rgb(255, 255, 255);
+   background-image:linear-gradient(
+       0deg,
+       rgb(0,0,0,0.5),
+       rgb(0,0,0,0.5)
+   ) ,url(./carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   
+
+
+}
+.n1 .logo h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.70em;
+}
+.n1 nav a{
+    color: rgb(255, 255, 255);
+    -o-transition:all 500ms ease  ;
+    transition:all 500ms ease ;
+    -webkit-transition:all 500ms ease ;
+    font-size: 15px;
+    font-weight: bold;
+}    
+.n1 nav a:hover{
+    background:rgb(45,200,116);
+    border-radius: 120px;
+    padding: 20px;
+
+}
+button{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px, 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0,0,0,0.5);
+    box-shadow:2px 2px 10px rgb(0,0,0,0.5) ;
+    color:white ;
+    background-color: rgb(45,200,116);
+}
+*h2{
+    font-size: 2.7rem;
+}
+h1{
+    font-size: 3.5rem;
+    margin: 50px;
+}
+.flex-container div {
+    max-width: 1200px;
+    margin: 20px;
+    padding: 13rem, 13rem;
+    background-color: rgb(67, 65, 65);
+    border: 2px solid rgb(0,0,0,0.5);;
+    border-radius: 20px;
+    color:rgb(255, 255, 255); ;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.flex-container{
+    border: 2px solid rgb(0,0,0,0.5);;
+    display: flex;
+    background-color: rgb(45,200,116);;
+    padding: 30px;
+    align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   flex-direction:column ;
+}
